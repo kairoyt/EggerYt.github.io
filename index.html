@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EggerYt</title>
+  <style>
+    /* ===== Reset & Base Styles ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 2rem;
+      background: rgba(0,0,0,0.3);
+      backdrop-filter: blur(6px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header img {
+      width: 100px;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #38bdf8;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #cbd5e1;
+    }
+
+    /* ===== Sections ===== */
+    section {
+      padding: 4rem 2rem;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #fbbf24;
+    }
+    p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    /* ===== Buttons / Links ===== */
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 12px 24px;
+      background: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0ea5e9;
+      color: #fff;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      background: #0f172a;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      h2 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="logo.png" alt="EggerYt Logo">
+    <h1>EggerYt</h1>
+    <p>🔥 BGMI Gaming | Live Streams | Highlights 🔥</p>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Welcome to <strong>EggerYt</strong>!  
+      I’m a passionate BGMI player bringing you exciting gameplay, 
+      intense fights, tips & tricks, and fun moments.  
+      Join me on my journey to conquer the battlegrounds!
+    </p>
+  </section>
+
+  <!-- YouTube Section -->
+  <section id="youtube">
+    <h2>🎥 Latest Video</h2>
+    <p>Check out my latest BGMI gameplay on YouTube:</p>
+    <iframe width="320" height="180" src="https://www.youtube.com/embed/your-video-id" 
+      title="EggerYt BGMI Gameplay" frameborder="0" allowfullscreen>
+    </iframe>
+    <br>
+    <a class="btn" href="https://www.youtube.com/@EggerYt" target="_blank">Subscribe Now</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>📩 Connect with Me</h2>
+    <p>Follow me on social media for updates and streams:</p>
+    <a class="btn" href="https://instagram.com/" target="_blank">Instagram</a>
+    <a class="btn" href="https://discord.com/" target="_blank">Discord</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 EggerYt | BGMI Gaming Channel
+  </footer>
+
+  <!-- Small JS Effect -->
+  <script>
+    // Simple welcome popup
+    window.onload = () => {
+      alert("Welcome to EggerYt BGMI Gaming Website 🎮🔥");
+    };
+  </script>
+</body>
+</html>
